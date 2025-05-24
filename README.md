@@ -118,6 +118,17 @@ Par exemple, si votre serveur web est configure pour servir le repertoire `SAE20
 http://localhost/SAE201/vue/abonnement.html
 ```
 
+## Technologies Utilisées
+
+Ce projet utilise les technologies suivantes :
+
+*   **Backend** : PHP (avec les scripts dans `IHM_API/`)
+*   **Base de Donnees** : MySQL (ou equivalent) et le script `bdclub.sql`
+*   **Frontend** :
+    *   HTML (dans `vue/`)
+    *   CSS (dans `vue/css/`)
+    *   JavaScript / TypeScript (dans `src/` compilé vers `controleur/` et `modele/`)
+
 ## Auteurs
 
 *   Ahmet BASBUNAR
