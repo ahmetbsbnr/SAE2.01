@@ -14,13 +14,40 @@ class UnAbonnement {
     }
 
     get abon_num(): string { return this._abon_num; }
-    set abon_num(v: string) { this._abon_num = v; }
+    set abon_num(v: string) {
+        const num = parseInt(v);
+        if (isNaN(num) || num <= 0) {
+            throw new Error("Le numéro d'abonnement doit être un entier supérieur à 0.");
+        }
+        this._abon_num = v;
+    }
     get abon_date(): string { return this._abon_date; }
-    set abon_date(v: string) { this._abon_date = v; }
+    set abon_date(v: string) {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0); // Reset time to compare just dates
+        const inputDate = new Date(v);
+        inputDate.setHours(0, 0, 0, 0); // Reset time to compare just dates
+
+        if (isNaN(inputDate.getTime()) || inputDate > today) {
+            throw new Error("La date d'abonnement doit être inférieure ou égale à la date du jour.");
+        }
+        this._abon_date = v;
+    }
     get abon_comment(): string { return this._abon_comment; }
-    set abon_comment(v: string) { this._abon_comment = v; }
+    set abon_comment(v: string) {
+        if (v !== null && v !== undefined && v.length > 400) {
+            throw new Error("Le commentaire d'abonnement ne doit pas dépasser 400 caractères.");
+        }
+        this._abon_comment = v;
+    }
     get adh_num(): string { return this._adh_num; }
-    set adh_num(v: string) { this._adh_num = v; }
+    set adh_num(v: string) {
+        const num = parseInt(v);
+        if (isNaN(num) || num <= 0) {
+            throw new Error("Le numéro d'adhérent doit être un entier supérieur à 0.");
+        }
+        this._adh_num = v;
+    }
 
     toArray(): APIsql.TtabAsso {
         return {
