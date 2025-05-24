@@ -1,6 +1,6 @@
-# Projet SAE 201
+# Projet SAE 2.01
 
-Voici la structure complete du projet SAE 201, ainsi que les auteurs.
+Voici la structure complete du projet SAE 2.01 en IHM, ainsi que les auteurs.
 
 ## Structure du Projet ##
 
@@ -8,9 +8,11 @@ Le projet suit une architecture **MVC**. Voici son arborescence :
 
 ```
 SAE201/
+│
+├── IHM_API/            # Backend API (PHP) 
+│
 ├── controleur/         # Controleurs (JavaScript/TypeScript)
-├── IHM_API/            # Backend API (PHP) - Interaction avec la base de donnees
-├── modele/             # Modele (JavaScript/TypeScript) - Logique des donnees
+├── modele/             # Modele (JavaScript/TypeScript) 
 ├── src/
 │   ├── controleur/     # Fichiers sources TypeScript des controleurs
 │   └── modele/         # Fichiers sources TypeScript du modele
@@ -18,16 +20,26 @@ SAE201/
 │   ├── css/            # Fichiers CSS pour la presentation
 │   ├── images/         # Images utilisees dans les vues
 │   └── *.html          # Fichiers HTML des vues
+│
+│
+├── tests/
+│   └──@tests/            # Fichiers tests
+│
+│── tsconfig.json       # Configuration pour la compilation TypeScript
+│
 ├── .DS_Store           # Fichier specifique macOS (peut etre ignore par Git)
 ├── package-lock.json   # Gere par npm/yarn (dependances)
-├── package.json        # Informations sur le projet et ses dependances (npm/yarn)
-└── tsconfig.json       # Configuration pour la compilation TypeScript
+└── package.json        # Informations sur le projet et ses dependances (npm/yarn)
+│
+│-- Autres fichiers en + --
+└── 
+
 ```
 
 ## Comment lancer l'application
 voici le liens devWeb : 
 ```
-http://localhost/SAE201/vue/abonnement.html
+https://devweb.iutmetz.univ-lorraine.fr/~e26350u/SSS2SSS/SAE201/SAE201/vue/abonnement_liste.html
 ```
 
 ## Auteurs
