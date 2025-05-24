@@ -18,7 +18,7 @@ class Connexion {
         APIsql.sqlWeb.bdOpen('devbdd.iutmetz.univ-lorraine.fr','3306','e26350u_SAE201', 'e2635Ou_appli','32407595', 'utf8');
     }
 }
-let connexion = new Connexion;
+const connexion = new Connexion;
 
 export {connexion, APIsql}
 
