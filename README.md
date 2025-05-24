@@ -14,17 +14,32 @@ Le projet suit une architecture **MVC** (Modele-Vue-Controleur) afin de separer 
 
 ## Structure du Projet
 
-Voici les principaux repertoires du projet :
+Voici l'arborescence du projet decrivant la structure MVC :
 
-*   `controleur/` : Contient les fichiers controleurs (logique de l'application).
-*   `IHM_API/` : Contient les scripts PHP pour l'API backend et l'interaction avec la base de donnees.
-*   `modele/` : Contient les fichiers du modele (logique des donnees).
-*   `src/` : Contient les fichiers sources TypeScript pour la compilation.
-*   `vue/` : Contient les fichiers des vues (HTML, CSS, images).
+```
+SAE201/
+├── controleur/         # Controleurs (JavaScript/TypeScript)
+├── IHM_API/            # Backend API (PHP) - Interaction avec la base de donnees
+├── modele/             # Modele (JavaScript/TypeScript) - Logique des donnees
+├── src/
+│   ├── controleur/     # Fichiers sources TypeScript des controleurs
+│   └── modele/         # Fichiers sources TypeScript du modele
+├── vue/
+│   ├── css/            # Fichiers CSS pour la presentation
+│   ├── images/         # Images utilisees dans les vues
+│   └── *.html          # Fichiers HTML des vues
+├── .DS_Store           # Fichier specifique macOS (peut etre ignore par Git)
+├── bdclub.sql          # Script SQL pour la base de donnees
+├── package-lock.json   # GÃ©rÃ© par npm/yarn (dependances)
+├── package.json        # Informations sur le projet et ses dependances (npm/yarn)
+├── sujet (1).pdf       # Sujet du projet (version 1)
+├── sujetQD.pdf         # Sujet du projet (version QD)
+├── Travaux en IHM.pdf  # Documentation ou travaux lies a l'IHM
+└── tsconfig.json       # Configuration pour la compilation TypeScript
+```
 
 ## Auteurs
 
 *   Ahmet BASBUNAR
 *   LEO DOBOS
-
-**Groupe :** 3.1
+*   G 3.1
