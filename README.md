@@ -108,6 +108,16 @@ Voici les principales fonctionnalites offertes par l'application :
 *   Gestion des adherents (ajout lors de la creation d'abonnement).
 *   Gestion des themes souscrits par abonnement.
 
+## Comment lancer l'application
+
+Une fois les etapes d'[Installation](#installation) completes et votre serveur web configure, vous pouvez acceder a l'application en ouvrant votre navigateur web et en naviguant vers l'URL ou le repertoire `SAE201/vue/` est servi.
+
+Par exemple, si votre serveur web est configure pour servir le repertoire `SAE201/` a la racine de `localhost`, vous pouvez acceder a la liste des abonnements via l'URL suivante :
+
+```
+http://localhost/SAE201/vue/abonnement.html
+```
+
 ## Auteurs
 
 *   Ahmet BASBUNAR
