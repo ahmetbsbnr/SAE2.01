@@ -1,22 +1,14 @@
 # Projet SAE 201
 
-Voici un apercu rapide de la structure et des auteurs du projet SAE 201.
+Voici un apercu rapide de la structure et des auteurs du projet SAE 201, base sur une architecture **MVC**.
 
-## Structure et Architecture MVC
+## Structure Principale
 
-Le projet suit une architecture **MVC** et son organisation est la suivante :
-
-```
-SAE201/
-├── controleur/         # Controleurs
-├── IHM_API/            # Backend API (PHP)
-├── modele/             # Modele
-├── src/                # Fichiers sources TypeScript
-├── vue/                # Vues (HTML, CSS, images)
-├── bdclub.sql          # Script SQL
-├── package.json        # Dependances npm/yarn
-└── tsconfig.json       # Configuration TypeScript
-```
+*   `controleur/` : Gere la logique de l'application.
+*   `modele/` : Gere les donnees et l'interaction avec la base de donnees.
+*   `vue/` : Contient les elements de presentation (HTML, CSS, images).
+*   `IHM_API/` : Scripts PHP pour l'API backend.
+*   `src/` : Fichiers sources TypeScript.
 
 ## Auteurs
 
