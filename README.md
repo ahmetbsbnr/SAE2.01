@@ -129,6 +129,12 @@ Ce projet utilise les technologies suivantes :
     *   CSS (dans `vue/css/`)
     *   JavaScript / TypeScript (dans `src/` compilé vers `controleur/` et `modele/`)
 
+## Backend API
+
+Le dossier `IHM_API/` contient les scripts PHP qui servent d'API backend pour l'application. Ces scripts sont responsables de l'interaction avec la base de donnees MySQL, gerant les operations de lecture, ecriture, modification et suppression (CRUD) pour les abonnements, adherents, themes, etc.
+
+Ces scripts repondent aux requetes envoyees par le frontend (via JavaScript) pour recuperer ou manipuler les donnees.
+
 ## Auteurs
 
 *   Ahmet BASBUNAR
