@@ -47,3 +47,11 @@ https://devweb.iutmetz.univ-lorraine.fr/~e26350u/SSS2SSS/SAE201/SAE201/vue/abonn
 *   Ahmet BASBUNAR
 *   LEO DOBOS
 *   G 3.1
+
+## info Base de données ##
+```
+## id pour PHPMYADMIN : e26350u_appli
+## Nom Base : e26350u_SAE201
+## MDP : 32407595
+```
+
