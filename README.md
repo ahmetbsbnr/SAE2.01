@@ -100,6 +100,14 @@ Assurez-vous d'avoir les elements suivants installes sur votre systeme :
 
     Ouvrez votre navigateur web et naviguez vers l'URL configuree pour votre projet (par exemple, `http://localhost/SAE201/vue/abonnement.html`).
 
+## Fonctionnalites
+
+Voici les principales fonctionnalites offertes par l'application :
+
+*   Gestion des abonnements (creation, modification, suppression).
+*   Gestion des adherents (ajout lors de la creation d'abonnement).
+*   Gestion des themes souscrits par abonnement.
+
 ## Auteurs
 
 *   Ahmet BASBUNAR
