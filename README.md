@@ -11,7 +11,6 @@ Ce projet a été réalisé dans le cadre de la SAE 2.01 à l'IUT de Metz. Il me
 - [Lancement de l'application](#lancement-de-lapplication)
 - [Fonctionnalités](#fonctionnalités)
 - [Configuration](#configuration)
-- [Base de Données](#base-de-données)
 - [Auteurs](#auteurs)
 
 ---
@@ -47,7 +46,7 @@ SAE201/
 
 1. **Cloner le projet** :
    ```bash
-   git clone <url-du-repo>
+   git clone https://github.com/ahmetbsbnr/SAE201/
    cd SAE201
    ```
 
@@ -62,15 +61,15 @@ SAE201/
    ```
 
 4. **Démarrer un serveur local** (optionnel) :
-   Utiliser un serveur comme [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) pour tester les vues HTML localement.
+   Utiliser un serveur comme [Live Server](XAMPP) pour tester localement.
 
 ---
 
 ## 🚀 Lancement de l'application
 
-L'application est hébergée à l'adresse suivante :
+L'application est hébergée sur les serveurs de l'IUT :
 
-🔗 [Accéder à l'application en ligne](https://devweb.iutmetz.univ-lorraine.fr/~e26350u/SSS2SSS/SAE201/SAE201/vue/abonnement_liste.html)
+🔗 [Accéder à l'application en ligne](https://devweb.iutmetz.univ-lorraine.fr/)
 
 ---
 
@@ -85,20 +84,10 @@ L'application est hébergée à l'adresse suivante :
 
 ## 🔧 Configuration
 
-Le projet utilise TypeScript pour le développement. La configuration se trouve dans `tsconfig.json`. Le backend repose sur une base de données MySQL connectée via PHP.
-
----
-
-## 🗃️ Base de Données
-
-**Identifiants PHPMyAdmin** :
-```
-Utilisateur : e26350u_appli
-Mot de passe : 32407595
-Base de données : e26350u_SAE201
-```
-
-> ⚠️ **Attention** : Ne jamais publier ces informations en environnement de production ou sur un dépôt public.
+- **Frontend** : TypeScript, HTML5, CSS3
+- **Backend** : PHP
+- **SGBD** : MySQL
+- Fichier de configuration TypeScript : `tsconfig.json`
 
 ---
 
