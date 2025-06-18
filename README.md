@@ -96,3 +96,17 @@ L'application est hébergée sur les serveurs de l'IUT :
 - **Ahmet BASBUNAR**
 - **Léo DOBOS**
 - Groupe G 3.1 – IUT de Metz
+
+---
+
+## 🔒 Licence
+
+Ce projet n’est **pas open-source**.
+
+Le code source peut être consulté et modifié **à des fins personnelles, éducatives ou non commerciales uniquement**.
+
+Toute **redistribution**, **publication** ou **utilisation commerciale** du code ou d’une version modifiée est **strictement interdite** sans autorisation écrite préalable.
+
+📄 Voir le fichier [LICENSE.md](./LICENSE.md) pour plus d’informations.
+
+📬 Contact : **Ahmet Basbunar** — ahmetbsbnr@icloud.com
